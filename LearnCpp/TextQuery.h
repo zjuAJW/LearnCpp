@@ -28,6 +28,15 @@ public:
 		std::shared_ptr<std::vector<std::string>> _file,
 		std::shared_ptr<std::set<line_no>> _lines) :
 		word(_word), file(_file), lines(_lines) {}
+	std::shared_ptr<std::vector<std::string>> getFiles() {
+		return file;
+	}
+	std::set<line_no>::iterator begin() {
+		return lines->begin();
+	}
+	std::set<line_no>::iterator end() {
+		return lines->end();
+	}
 private:
 	std::string word;
 	std::shared_ptr<std::vector<std::string>> file;

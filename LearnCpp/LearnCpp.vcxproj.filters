@@ -33,10 +33,10 @@
     <ClInclude Include="WordQuery.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AndQuery.h">
+    <ClInclude Include="BinaryQuery.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryQuery.h">
+    <ClInclude Include="Blob.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,7 +50,7 @@
     <ClCompile Include="TextQuery.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AndQuery.cpp">
+    <ClCompile Include="Query.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
